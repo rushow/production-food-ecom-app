@@ -9,7 +9,7 @@ import productRoutes from "./routes/productRoutes.js";
 import openaiRoutes from "./routes/openaiRoutes.js";
 import cors from "cors";
 import path from "path";
-import {fileURLToPath} from "URL";
+import {fileURLToPath} from "url";
 
 // configure env
 dotenv.config();
